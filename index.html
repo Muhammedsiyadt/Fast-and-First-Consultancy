@@ -29,7 +29,7 @@
         }
 
         .logo-box img {
-            max-height: 140px;
+            max-height: 100px;
             width: auto;
             transition: all 0.3s ease;
         }
@@ -97,6 +97,11 @@
 
         .npa-btn-one:hover {
             background-color: #e0a800;
+        }
+
+        .value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
         }
     </style>
 
@@ -377,41 +382,109 @@
 
 
         <!-- welcome-section -->
-        <section class="welcome-section bg-color-1">
+        <section class="welcome-section" style="background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+                url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 100px 0;
+">
             <div class="container-auto">
-                <div class="sec-title centred">
-                    <h2>Who We Are</h2>
-                    <p>
-                        At Fast and First Consultancy, we don’t just deal in real estate—we turn aspirations into
-                        addresses and properties into possibilities.
+                <!-- <div class="sec-title centred" style="margin-bottom: 50px;">
+                    <h2 style="
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: #333;
+                font-size: 42px;
+                position: relative;
+                display: inline-block;
+                padding-bottom: 15px;
+            ">
+                        Who We Are
+                        <span style="
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 80px;
+                    height: 3px;
+                    background: #2196c4;
+                "></span>
+                    </h2>
+                    <p style="
+                color: #666;
+                font-size: 18px;
+                margin-top: 20px;
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+            ">
+                        From vision to address, we make it possible.
                     </p>
-                </div>
-                <div class="row clearfix align-items-center">
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <figure class="image-box js-tilt">
+                </div> -->
+                <div class="row clearfix align-items-center" style="
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        ">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="padding: 0;">
+                        <figure class="image-box js-tilt" style="margin: 0; height: 100%;">
                             <img src="./assets/images/faf-images/who-we-are-1.jpg"
-                                alt="Who We Are - Fast and First Consultancy">
+                                alt="Who We Are - Fast and First Consultancy" style="
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            min-height: 400px;
+                         ">
                         </figure>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column" style="padding: 50px;">
                         <div id="content_block_1">
                             <div class="content-box">
                                 <div class="tabs-box">
                                     <div class="tabs-content">
                                         <div class="tab active-tab">
                                             <div class="inner-box">
-                                                <!-- <h5>Introduction</h5> -->
-                                                <h2>Welcome to <b><i>Fast and First Consultancy</i></b></h2>
+                                                <h2 style="
+                                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            color: #333;
+                                            font-size: 32px;
+                                            margin-bottom: 20px;
+                                            position: relative;
+                                            padding-bottom: 15px;
+                                        ">
+                                                    Welcome to<br> <b style="color: #2196c4;"><i>Fast and First
+                                                            Consultancy</i></b>
+                                                    <span style="
+                                                position: absolute;
+                                                bottom: 0;
+                                                left: 0;
+                                                width: 60px;
+                                                height: 2px;
+                                                background: #2196c4;
+                                            "></span>
+                                                </h2>
 
-                                                <p>
+                                                <p style="
+                                            color: #555;
+                                            line-height: 1.8;
+                                            margin-bottom: 20px;
+                                            font-size: 16px;
+                                        ">
                                                     At Fast and First Consultancy, we understand that real estate is
-                                                    more than buying or selling property—it’s about people, dreams, and
+                                                    more than buying or selling property—it's about people, dreams, and
                                                     life-changing decisions.
-                                                    Since 2001, we’ve proudly served the UAE with deep industry insight,
+                                                    Since 2001, we've proudly served the UAE with deep industry insight,
                                                     ethical guidance, and personalized solutions.
                                                 </p>
 
-                                                <p>
+                                                <p style="
+                                            color: #555;
+                                            line-height: 1.8;
+                                            margin-bottom: 20px;
+                                            font-size: 16px;
+                                        ">
                                                     Backed by decades of combined experience, our dedicated team helps
                                                     individuals and investors alike navigate the complex real estate
                                                     landscape with confidence and clarity. Whether it's your first home
@@ -419,8 +492,21 @@
                                                     first.
                                                 </p>
 
-                                                <!-- <div class="link"><a href="#"><i class="flaticon-right-arrow"></i>Read
-                                                        More</a></div> -->
+                                                <div style="margin-top: 30px;">
+                                                    <a style="
+                                                display: inline-block;
+                                                padding: 12px 30px;
+                                                background: #2196c4;
+                                                color: white;
+                                                text-decoration: none;
+                                                border-radius: 5px;
+                                                font-weight: bold;
+                                                transition: all 0.3s ease;
+                                            " onmouseover="this.style.backgroundColor='#0d7ba8'"
+                                                        onmouseout="this.style.backgroundColor='#2196c4'">
+                                                        Learn More About Us
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -434,84 +520,316 @@
 
         <!-- welcome-section end -->
 
-        <section class="chooseus-section alternet-2">
-            <div class="container-auto">
-                <div class="title-inner clearfix">
-                    <div class="sec-title pull-left">
-                        <span class="top-title">Why <b>Fast and First Consultancy</b> :</span>
-                        <h2>Our Core Values</h2>
+        <section class="chooseus-section" style="
+    background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+">
+            <!-- Decorative elements -->
+            <div style="
+        position: absolute;
+        top: -50px;
+        right: -50px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: rgba(33, 150, 196, 0.05);
+        z-index: 1;
+    "></div>
+            <div style="
+        position: absolute;
+        bottom: -100px;
+        left: -100px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: rgba(33, 150, 196, 0.05);
+        z-index: 1;
+    "></div>
+
+            <div class="container-auto" style="position: relative; z-index: 2;">
+                <div class="title-inner clearfix" style="
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 60px;
+        ">
+                    <div class="sec-title" style="flex: 1; min-width: 300px; margin-bottom: 20px;">
+                        <span style="
+                    display: block;
+                    color: #2196c4;
+                    font-size: 18px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    margin-bottom: 15px;
+                    text-transform: uppercase;
+                ">
+                            Why <b>Fast and First Consultancy</b>
+                        </span>
+                        <h2 style="
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: #333;
+                    font-size: 42px;
+                    margin: 0;
+                    position: relative;
+                    display: inline-block;
+                ">
+                            Our Core Values
+                            <span style="
+                        position: absolute;
+                        bottom: -10px;
+                        left: 0;
+                        width: 60px;
+                        height: 3px;
+                        background: #2196c4;
+                    "></span>
+                        </h2>
                     </div>
-                    <div class="text pull-right">
-                        <p>
+                    <div class="text" style="flex: 1; min-width: 300px; max-width: 500px;">
+                        <p style="
+                    color: #666;
+                    font-size: 18px;
+                    line-height: 1.6;
+                    margin: 0;
+                ">
                             Since 2001, Fast and First Consultancy has been built on trust, transparency, and
-                            transformative results—
-                            values that drive every decision and define every success.
+                            transformative results—values that drive every decision and define every success.
                         </p>
                     </div>
                 </div>
 
-                <div class="row clearfix mt-5">
-                    <div class="col-lg-6 col-md-6 col-sm-12 chooseus-block">
-                        <div class="chooseus-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="icon-box">
-                                    <img src="./assets/images/icons/icon-44.png" alt="">
-                                </figure>
-                                <h3>Real Estate Expertise</h3>
-                                <p>
-                                    With over two decades of hands-on experience in the UAE market, we understand buyer
-                                    behavior, seller psychology, and legal intricacies—ensuring every transaction is
-                                    smooth and profitable.
-                                </p>
-                            </div>
+                <div class="row clearfix" style="
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        ">
+                    <!-- Value 1 -->
+                    <div class="col-lg-6 col-md-6 col-sm-12" style="
+                padding: 15px;
+                box-sizing: border-box;
+            ">
+                        <div class="value-card" style="
+                    background: white;
+                    border-radius: 10px;
+                    padding: 40px;
+                    height: 100%;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+                    transition: all 0.3s ease;
+                    border-top: 4px solid #2196c4;
+                    position: relative;
+                    overflow: hidden;
+                ">
+                            <div style="
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 60px;
+                        height: 60px;
+                        background: rgba(33, 150, 196, 0.1);
+                        border-radius: 0 10px 0 100%;
+                    "></div>
+                            <figure class="icon-box" style="
+                        width: 70px;
+                        height: 70px;
+                        background: rgba(33, 150, 196, 0.1);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 25px;
+                    ">
+                                <img src="./assets/images/icons/icon-44.png" alt="" style="width: 40px;">
+                            </figure>
+                            <h3 style="
+                        color: #333;
+                        font-size: 24px;
+                        margin: 0 0 15px 0;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    ">
+                                Real Estate Expertise
+                            </h3>
+                            <p style="
+                        color: #666;
+                        line-height: 1.8;
+                        margin: 0;
+                    ">
+                                With over two decades of hands-on experience in the UAE market, we understand buyer
+                                behavior, seller psychology, and legal intricacies—ensuring every transaction is
+                                smooth and profitable.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 chooseus-block">
-                        <div class="chooseus-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="icon-box">
-                                    <img src="./assets/images/icons/icon-44.png" alt="">
-                                </figure>
-                                <h3>Personalized Service</h3>
-                                <p>
-                                    We believe every client is unique. Our team crafts tailor-made strategies—whether
-                                    you’re buying your first home or investing in commercial property—to meet your goals
-                                    with precision and care.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row clearfix mt-5">
-                    <div class="col-lg-6 col-md-6 col-sm-12 chooseus-block">
-                        <div class="chooseus-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="icon-box">
-                                    <img src="./assets/images/icons/icon-44.png" alt="">
-                                </figure>
-                                <h3>Diverse Services</h3>
-                                <p>
-                                    From real estate and property management to finance, construction, digital
-                                    marketing, and even automobile services—our broad portfolio means you have a single,
-                                    trusted partner for everything you need.
-                                </p>
-                            </div>
+                    <!-- Value 2 -->
+                    <div class="col-lg-6 col-md-6 col-sm-12" style="
+                padding: 15px;
+                box-sizing: border-box;
+            ">
+                        <div class="value-card" style="
+                    background: white;
+                    border-radius: 10px;
+                    padding: 40px;
+                    height: 100%;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+                    transition: all 0.3s ease;
+                    border-top: 4px solid #2196c4;
+                    position: relative;
+                    overflow: hidden;
+                ">
+                            <div style="
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 60px;
+                        height: 60px;
+                        background: rgba(33, 150, 196, 0.1);
+                        border-radius: 0 10px 0 100%;
+                    "></div>
+                            <figure class="icon-box" style="
+                        width: 70px;
+                        height: 70px;
+                        background: rgba(33, 150, 196, 0.1);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 25px;
+                    ">
+                                <img src="./assets/images/icons/icon-44.png" alt="" style="width: 40px;">
+                            </figure>
+                            <h3 style="
+                        color: #333;
+                        font-size: 24px;
+                        margin: 0 0 15px 0;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    ">
+                                Personalized Service
+                            </h3>
+                            <p style="
+                        color: #666;
+                        line-height: 1.8;
+                        margin: 0;
+                    ">
+                                We believe every client is unique. Our team crafts tailor-made strategies—whether
+                                you're buying your first home or investing in commercial property—to meet your goals
+                                with precision and care.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 chooseus-block">
-                        <div class="chooseus-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="icon-box">
-                                    <img src="./assets/images/icons/icon-44.png" alt="">
-                                </figure>
-                                <h3>Trust & Integrity</h3>
-                                <p>
-                                    Our reputation was built on results—and earned through honesty. Clients return to
-                                    Fast and First Consultancy because they know we lead with integrity and always put
-                                    their best interest first.
-                                </p>
-                            </div>
+
+                    <!-- Value 3 -->
+                    <div class="col-lg-6 col-md-6 col-sm-12" style="
+                padding: 15px;
+                box-sizing: border-box;
+            ">
+                        <div class="value-card" style="
+                    background: white;
+                    border-radius: 10px;
+                    padding: 40px;
+                    height: 100%;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+                    transition: all 0.3s ease;
+                    border-top: 4px solid #2196c4;
+                    position: relative;
+                    overflow: hidden;
+                ">
+                            <div style="
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 60px;
+                        height: 60px;
+                        background: rgba(33, 150, 196, 0.1);
+                        border-radius: 0 10px 0 100%;
+                    "></div>
+                            <figure class="icon-box" style="
+                        width: 70px;
+                        height: 70px;
+                        background: rgba(33, 150, 196, 0.1);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 25px;
+                    ">
+                                <img src="./assets/images/icons/icon-44.png" alt="" style="width: 40px;">
+                            </figure>
+                            <h3 style="
+                        color: #333;
+                        font-size: 24px;
+                        margin: 0 0 15px 0;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    ">
+                                Diverse Services
+                            </h3>
+                            <p style="
+                        color: #666;
+                        line-height: 1.8;
+                        margin: 0;
+                    ">
+                                From real estate and property management to finance, construction, digital
+                                marketing, and even automobile services—our broad portfolio means you have a single,
+                                trusted partner for everything you need.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Value 4 -->
+                    <div class="col-lg-6 col-md-6 col-sm-12" style="
+                padding: 15px;
+                box-sizing: border-box;
+            ">
+                        <div class="value-card" style="
+                    background: white;
+                    border-radius: 10px;
+                    padding: 40px;
+                    height: 100%;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+                    transition: all 0.3s ease;
+                    border-top: 4px solid #2196c4;
+                    position: relative;
+                    overflow: hidden;
+                ">
+                            <div style="
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 60px;
+                        height: 60px;
+                        background: rgba(33, 150, 196, 0.1);
+                        border-radius: 0 10px 0 100%;
+                    "></div>
+                            <figure class="icon-box" style="
+                        width: 70px;
+                        height: 70px;
+                        background: rgba(33, 150, 196, 0.1);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 25px;
+                    ">
+                                <img src="./assets/images/icons/icon-44.png" alt="" style="width: 40px;">
+                            </figure>
+                            <h3 style="
+                        color: #333;
+                        font-size: 24px;
+                        margin: 0 0 15px 0;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    ">
+                                Trust & Integrity
+                            </h3>
+                            <p style="
+                        color: #666;
+                        line-height: 1.8;
+                        margin: 0;
+                    ">
+                                Our reputation was built on results—and earned through honesty. Clients return to
+                                Fast and First Consultancy because they know we lead with integrity and always put
+                                their best interest first.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -536,65 +854,346 @@
         </section>
 
         <!-- Service Section -->
-        <section class="recruitment-service bg-color-1">
-            <div class="container-auto">
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column d-none d-lg-block">
-                        <figure class="image-box  clearfix">
-                            <img src="assets/images/resource/recruitment-1.png" alt="Services">
-                        </figure>
+        <section class="real-estate-services" style="
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), 
+                url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+">
+    <div class="container-auto" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+        <div class="row clearfix" style="
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        ">
+            <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="
+                padding: 20px;
+                box-sizing: border-box;
+                display: none;
+            ">
+                <figure class="image-box" style="margin: 0;">
+                    <img src="assets/images/resource/real-estate-services.jpg" alt="Real Estate Services" style="
+                        width: 100%;
+                        border-radius: 10px;
+                        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+                    ">
+                </figure>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 content-column" style="
+                padding: 20px;
+                box-sizing: border-box;
+            ">
+                <div class="content-box" style="
+                    background: white;
+                    border-radius: 10px;
+                    padding: 50px;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                ">
+                    <div class="sec-title" style="margin-bottom: 40px;">
+                        <span style="
+                            display: block;
+                            color: #2196c4;
+                            font-size: 18px;
+                            font-weight: 600;
+                            letter-spacing: 1px;
+                            margin-bottom: 15px;
+                            text-transform: uppercase;
+                        ">
+                            Our Specialized Services
+                        </span>
+                        <h2 style="
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            color: #333;
+                            font-size: 42px;
+                            margin: 0 0 20px 0;
+                            position: relative;
+                            display: inline-block;
+                        ">
+                            Comprehensive Real Estate Solutions
+                            <span style="
+                                position: absolute;
+                                bottom: -10px;
+                                left: 0;
+                                width: 80px;
+                                height: 3px;
+                                background: #2196c4;
+                            "></span>
+                        </h2>
+                        <p style="
+                            color: #666;
+                            font-size: 18px;
+                            line-height: 1.6;
+                            margin: 0;
+                            max-width: 800px;
+                        ">
+                            At Fast and First Consultancy, we offer end-to-end real estate services in Mangalore, 
+                            combining local expertise with global standards to deliver exceptional results.
+                        </p>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                        <div id="content_block_4">
-                            <div class="content-box">
-                                <div class="sec-title">
-                                    <span class="top-title">Services</span>
-                                    <h2>Expert Services Anywhere</h2>
-                                    <p>
-                                        At Nursing Pool Australia, we offer a wide range of services to meet the
-                                        staffing needs of healthcare institutions and the career needs of nurses. Our
-                                        services include:
+                    <div class="inner-box" style="
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                        gap: 30px;
+                    ">
+                        <!-- Service 1 -->
+                        <div class="service-item" style="
+                            background: #f9f9f9;
+                            border-radius: 8px;
+                            padding: 30px;
+                            transition: all 0.3s ease;
+                            border-left: 4px solid #2196c4;
+                        ">
+                            <div class="inner">
+                                <h3 style="
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    color: #333;
+                                    font-size: 22px;
+                                    margin: 0 0 15px 0;
+                                    display: flex;
+                                    align-items: center;
+                                ">
+                                    <span style="
+                                        display: inline-block;
+                                        width: 40px;
+                                        height: 40px;
+                                        background: #2196c4;
+                                        color: white;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                        line-height: 40px;
+                                        margin-right: 15px;
+                                        font-size: 18px;
+                                    ">01</span>
+                                    Residential Property Sales
+                                </h3>
+                                <p style="
+                                    color: #666;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                ">
+                                    Expert guidance in buying or selling homes, apartments, and villas across Mangalore's 
+                                    prime locations with transparent pricing and legal support.
+                                </p>
+                            </div>
+                        </div>
 
-                                    </p>
-                                </div>
-                                <div class="inner-box">
-                                    <div class="single-item wow fadeInRight animated animated" data-wow-delay="00ms"
-                                        data-wow-duration="1500ms">
-                                        <div class="inner">
+                        <!-- Service 2 -->
+                        <div class="service-item" style="
+                            background: #f9f9f9;
+                            border-radius: 8px;
+                            padding: 30px;
+                            transition: all 0.3s ease;
+                            border-left: 4px solid #2196c4;
+                        ">
+                            <div class="inner">
+                                <h3 style="
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    color: #333;
+                                    font-size: 22px;
+                                    margin: 0 0 15px 0;
+                                    display: flex;
+                                    align-items: center;
+                                ">
+                                    <span style="
+                                        display: inline-block;
+                                        width: 40px;
+                                        height: 40px;
+                                        background: #2196c4;
+                                        color: white;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                        line-height: 40px;
+                                        margin-right: 15px;
+                                        font-size: 18px;
+                                    ">02</span>
+                                    Commercial Real Estate
+                                </h3>
+                                <p style="
+                                    color: #666;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                ">
+                                    Strategic solutions for office spaces, retail properties, and industrial units 
+                                    with market analysis and investment potential assessment.
+                                </p>
+                            </div>
+                        </div>
 
-                                            <h3>
-                                                <span>01</span>
-                                                <a>Permanent Placements<i class="flaticon-right-arrow"></i></a>
-                                            </h3>
-                                            <p>
-                                                Hiring qualified nurses for permanent positions in healthcare
-                                                facilities.
+                        <!-- Service 3 -->
+                        <div class="service-item" style="
+                            background: #f9f9f9;
+                            border-radius: 8px;
+                            padding: 30px;
+                            transition: all 0.3s ease;
+                            border-left: 4px solid #2196c4;
+                        ">
+                            <div class="inner">
+                                <h3 style="
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    color: #333;
+                                    font-size: 22px;
+                                    margin: 0 0 15px 0;
+                                    display: flex;
+                                    align-items: center;
+                                ">
+                                    <span style="
+                                        display: inline-block;
+                                        width: 40px;
+                                        height: 40px;
+                                        background: #2196c4;
+                                        color: white;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                        line-height: 40px;
+                                        margin-right: 15px;
+                                        font-size: 18px;
+                                    ">03</span>
+                                    Property Management
+                                </h3>
+                                <p style="
+                                    color: #666;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                ">
+                                    Comprehensive management services including tenant screening, rent collection, 
+                                    maintenance coordination, and financial reporting for property owners.
+                                </p>
+                            </div>
+                        </div>
 
-                                            </p>
-                                        </div>
-                                    </div>
+                        <!-- Service 4 -->
+                        <div class="service-item" style="
+                            background: #f9f9f9;
+                            border-radius: 8px;
+                            padding: 30px;
+                            transition: all 0.3s ease;
+                            border-left: 4px solid #2196c4;
+                        ">
+                            <div class="inner">
+                                <h3 style="
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    color: #333;
+                                    font-size: 22px;
+                                    margin: 0 0 15px 0;
+                                    display: flex;
+                                    align-items: center;
+                                ">
+                                    <span style="
+                                        display: inline-block;
+                                        width: 40px;
+                                        height: 40px;
+                                        background: #2196c4;
+                                        color: white;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                        line-height: 40px;
+                                        margin-right: 15px;
+                                        font-size: 18px;
+                                    ">04</span>
+                                    Real Estate Investment Consulting
+                                </h3>
+                                <p style="
+                                    color: #666;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                ">
+                                    Data-driven investment strategies identifying high-growth opportunities in 
+                                    Mangalore's emerging and established neighborhoods.
+                                </p>
+                            </div>
+                        </div>
 
-                                    <div class="single-item wow fadeInRight animated animated" data-wow-delay="00ms"
-                                        data-wow-duration="1500ms">
-                                        <div class="inner">
+                        <!-- Service 5 -->
+                        <div class="service-item" style="
+                            background: #f9f9f9;
+                            border-radius: 8px;
+                            padding: 30px;
+                            transition: all 0.3s ease;
+                            border-left: 4px solid #2196c4;
+                        ">
+                            <div class="inner">
+                                <h3 style="
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    color: #333;
+                                    font-size: 22px;
+                                    margin: 0 0 15px 0;
+                                    display: flex;
+                                    align-items: center;
+                                ">
+                                    <span style="
+                                        display: inline-block;
+                                        width: 40px;
+                                        height: 40px;
+                                        background: #2196c4;
+                                        color: white;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                        line-height: 40px;
+                                        margin-right: 15px;
+                                        font-size: 18px;
+                                    ">05</span>
+                                    Construction & Development
+                                </h3>
+                                <p style="
+                                    color: #666;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                ">
+                                    End-to-end project management from land acquisition to construction oversight, 
+                                    ensuring quality and timely delivery of residential and commercial projects.
+                                </p>
+                            </div>
+                        </div>
 
-                                            <h3>
-                                                <span>02</span>
-                                                <a>Temporary Contracts<i class="flaticon-right-arrow"></i></a>
-                                            </h3>
-                                            <p>Hiring qualified nurses for short-term or temporary positions in
-                                                healthcare facilities. </p>
-                                        </div>
-                                    </div>
-
-
-                                </div>
+                        <!-- Service 6 -->
+                        <div class="service-item" style="
+                            background: #f9f9f9;
+                            border-radius: 8px;
+                            padding: 30px;
+                            transition: all 0.3s ease;
+                            border-left: 4px solid #2196c4;
+                        ">
+                            <div class="inner">
+                                <h3 style="
+                                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    color: #333;
+                                    font-size: 22px;
+                                    margin: 0 0 15px 0;
+                                    display: flex;
+                                    align-items: center;
+                                ">
+                                    <span style="
+                                        display: inline-block;
+                                        width: 40px;
+                                        height: 40px;
+                                        background: #2196c4;
+                                        color: white;
+                                        border-radius: 50%;
+                                        text-align: center;
+                                        line-height: 40px;
+                                        margin-right: 15px;
+                                        font-size: 18px;
+                                    ">06</span>
+                                    Legal & Documentation
+                                </h3>
+                                <p style="
+                                    color: #666;
+                                    line-height: 1.6;
+                                    margin: 0;
+                                ">
+                                    Complete legal support including title verification, contract preparation, 
+                                    registration assistance, and dispute resolution for seamless transactions.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
         <!-- Service Section end -->
 
 
@@ -804,6 +1403,209 @@
                 });
             });
         });
+    </script>
+
+
+    <script>
+        // Google Maps Reviews Data Objects
+        const googleReviews = [
+            {
+                author_name: "Sarah Johnson",
+                author_url: "https://www.google.com/maps/contrib/112233445566778899",
+                profile_photo_url: "assets/images/resource/testimonial-1.png",
+                rating: 5,
+                relative_time_description: "2 weeks ago",
+                text: "Outstanding service! The staff was incredibly professional and went above and beyond to help me. The facility is clean, modern, and well-organized. I highly recommend this place to anyone looking for quality healthcare services.",
+                time: 1704067200
+            },
+            {
+                author_name: "Michael Chen",
+                author_url: "https://www.google.com/maps/contrib/223344556677889900",
+                profile_photo_url: "assets/images/resource/testimonial-1.png",
+                rating: 5,
+                relative_time_description: "1 month ago",
+                text: "Excellent experience from start to finish. The team is knowledgeable, caring, and truly dedicated to patient care. The appointment scheduling was seamless and the wait times were minimal.",
+                time: 1701475200
+            },
+            {
+                author_name: "Emma Thompson",
+                author_url: "https://www.google.com/maps/contrib/334455667788990011",
+                profile_photo_url: "assets/images/resource/testimonial-1.png",
+                rating: 4,
+                relative_time_description: "3 weeks ago",
+                text: "Very satisfied with the service provided. The staff was friendly and helpful throughout my visit. The only minor issue was the parking situation, but overall a great experience.",
+                time: 1703462400
+            },
+            {
+                author_name: "David Rodriguez",
+                author_url: "https://www.google.com/maps/contrib/445566778899001122",
+                profile_photo_url: "assets/images/resource/testimonial-1.png",
+                rating: 5,
+                relative_time_description: "1 week ago",
+                text: "Top-notch facility with exceptional care. I've been coming here for over a year and the consistency in quality service is remarkable. Highly professional team and state-of-the-art equipment.",
+                time: 1704672000
+            },
+            {
+                author_name: "Lisa Anderson",
+                author_url: "https://www.google.com/maps/contrib/556677889900112233",
+                profile_photo_url: "assets/images/resource/testimonial-1.png",
+                rating: 5,
+                relative_time_description: "2 days ago",
+                text: "Amazing team and excellent service! They made me feel comfortable and well-cared for. The attention to detail and personalized care really sets them apart from other facilities.",
+                time: 1704844800
+            },
+            {
+                author_name: "Robert Wilson",
+                author_url: "https://www.google.com/maps/contrib/667788990011223344",
+                profile_photo_url: "assets/images/resource/testimonial-1.png",
+                rating: 4,
+                relative_time_description: "1 month ago",
+                text: "Great service and professional staff. The facility is well-maintained and the equipment is modern. Would definitely recommend to others seeking quality healthcare services.",
+                time: 1701388800
+            },
+            {
+                author_name: "Jennifer Martinez",
+                author_url: "https://www.google.com/maps/contrib/778899001122334455",
+                profile_photo_url: "assets/images/resource/testimonial-1.png",
+                rating: 5,
+                relative_time_description: "4 days ago",
+                text: "Exceptional care and attention to detail. The staff made me feel like family and the service exceeded all my expectations. I wouldn't go anywhere else for my healthcare needs.",
+                time: 1704758400
+            },
+            {
+                author_name: "Kevin Brown",
+                author_url: "https://www.google.com/maps/contrib/889900112233445566",
+                profile_photo_url: "assets/images/resource/testimonial-1.png",
+                rating: 5,
+                relative_time_description: "5 days ago",
+                text: "Outstanding professionalism and care. The team went above and beyond to ensure I received the best possible service. Highly recommend to anyone in need of quality healthcare.",
+                time: 1704672000
+            }
+        ];
+
+        // Function to generate star rating HTML
+        function generateStars(rating) {
+            let starsHtml = '';
+            for (let i = 1; i <= 5; i++) {
+                starsHtml += '<li><i class="flaticon-star"></i></li>';
+            }
+            return starsHtml;
+        }
+
+        // Function to create testimonial block HTML
+        function createTestimonialBlock(review) {
+            return `
+        <div class="testimonial-block-one">
+            <div class="inner-box">
+                <div class="author-box">
+                    <figure class="author-thumb">
+                        <img src="${review.profile_photo_url}" alt="testimonial-image">
+                    </figure>
+                    <ul class="rating clearfix">
+                        ${generateStars(review.rating)}
+                    </ul>
+                    <h3>${review.author_name}</h3>
+                </div>
+                <div class="text">
+                    <p>${review.text}</p>
+                </div>
+            </div>
+        </div>
+    `;
+        }
+
+        // Function to populate testimonials from reviews data
+        function populateTestimonials() {
+            const carousel = document.querySelector('.testimonial-carousel');
+
+            // Destroy existing owl carousel if it exists
+            if (typeof $ !== 'undefined' && $.fn.owlCarousel) {
+                $(carousel).trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
+                $(carousel).find('.owl-stage-outer').children().unwrap();
+            }
+
+            // Clear existing testimonials (remove the hardcoded ones)
+            carousel.innerHTML = '';
+
+            // Add reviews from the googleReviews array (maintain horizontal layout)
+            let testimonialHTML = '';
+            googleReviews.forEach(review => {
+                testimonialHTML += createTestimonialBlock(review);
+            });
+            carousel.innerHTML = testimonialHTML;
+
+            // Reinitialize owl carousel
+            if (typeof $ !== 'undefined' && $.fn.owlCarousel) {
+                $(carousel).addClass('owl-carousel owl-theme owl-dots-none owl-nav-none');
+                $(carousel).owlCarousel({
+                    loop: true,
+                    margin: 30,
+                    nav: false,
+                    dots: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 2
+                        }
+                    }
+                });
+            }
+        }
+
+        // Initialize testimonials when page loads
+        document.addEventListener('DOMContentLoaded', function () {
+            populateTestimonials();
+
+            // Initialize Owl Carousel after content is loaded
+            if (typeof $ !== 'undefined' && $.fn.owlCarousel) {
+                $('.testimonial-carousel').owlCarousel({
+                    loop: true,
+                    margin: 30,
+                    nav: false,
+                    dots: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 2
+                        }
+                    }
+                });
+            }
+        });
+
+        // Function to add new review dynamically (for real-time updates)
+        function addNewReview(reviewData) {
+            googleReviews.unshift(reviewData);
+            // Re-populate all testimonials to maintain layout
+            populateTestimonials();
+        }
+
+        // Function to load reviews from Google Places API (when you get real data)
+        async function loadGoogleReviews(placeId, apiKey) {
+            try {
+                const response = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=reviews&key=${apiKey}`);
+                const data = await response.json();
+
+                if (data.result && data.result.reviews) {
+                    // Replace sample data with real reviews
+                    googleReviews.length = 0;
+                    googleReviews.push(...data.result.reviews);
+                    populateTestimonials();
+                }
+            } catch (error) {
+                console.error('Error loading Google reviews:', error);
+            }
+        }
     </script>
 
 
