@@ -3722,10 +3722,9 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 0px;
   padding: 37px 40px 42px 50px;
-  margin-right: 10px;
-  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  border: 2px solid #6dccffaf;
 }
 
 
